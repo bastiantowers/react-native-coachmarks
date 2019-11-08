@@ -1,5 +1,8 @@
-# react-native-coachmarks
-Welcome to react-native-coachmarks! It helps you easily create Coach Marks to enhance user experience!
+# react-native-coachmarks-advance
+
+Forked from [react-native-coachmarks](https://github.com/TranLuongTuanAnh/react-native-coachmarks) by @TranLuongTuanAnh.
+
+Welcome to react-native-coachmarks-advance! It helps you easily create Coach Marks to enhance user experience!
 ## DEMO
 
 ![](coachmarkSimulation.gif)
@@ -14,6 +17,7 @@ Welcome to react-native-coachmarks! It helps you easily create Coach Marks to en
      CM.push(
       {
         tooltip: 'The first steps of your tutorial',
+        okText: 'Accept',
         position: {
           top:35,
           left: width - 58,
@@ -32,6 +36,7 @@ Welcome to react-native-coachmarks! It helps you easily create Coach Marks to en
       },
       {
         tooltip: 'The second steps of your tutorial',
+        okText: 'Continue',
         position: {
           top:height - 70,
           left: width - 91,
@@ -50,6 +55,7 @@ Welcome to react-native-coachmarks! It helps you easily create Coach Marks to en
       },
       {
         tooltip: 'The last steps of your tutorial',
+        okText: 'Finish',
         position: {
           top:height - 75,
           left: width - 305,
